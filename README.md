@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ashan Dhanushka | Portfolio 🚀
 
-## Getting Started
+Welcome to my personal portfolio repository! This site serves as a central hub for my work, bridging the gap between **Scalable Full-Stack Engineering** and **Advanced Computer Vision Research**.
 
-First, run the development server:
+## 🌐 Live Demo
+**https://my-portfolio-pi-hazel-34.vercel.app/**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technical Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Frontend & UI
+* **Framework:** Next.js (App Router)
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion (for smooth transitions and interactive elements)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Backend & AI Context (My Specialties)
+* **Systems:** Microservices Architecture (Spring Boot, Kafka, RabbitMQ)
+* **AI Research:** Monocular Depth Estimation using Knowledge Distillation
+* **Deep Learning Tools:** MobileNetV3, MobileViT, PyTorch
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🏗️ Key Projects Highlighted
+- **AutoHive:** A full-stack distributed system built with Spring Boot and Next.js.
+- **Monocular Depth Estimation:** Research on distilling knowledge from large teacher models into lightweight student models for edge devices.
+- **Knowledge Distillation Framework:** Implementation of efficient AI training using Hypersim and HeadsUp datasets.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Getting Started
 
-## Deploy on Vercel
+To run this portfolio locally:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/portfolio-repo.git](https://github.com/your-username/portfolio-repo.git)
