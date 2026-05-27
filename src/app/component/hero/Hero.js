@@ -29,7 +29,7 @@ export default function Hero() {
                         </h1>
                         
                         <p className="text-slate-400 leading-relaxed text-lg font-sans max-w-xl mx-auto md:mx-0">
-                            A passionate Frontend Developer crafting seamless, high-performance web experiences.
+                           A Full-Stack Developer and Research Student bridging the gap between elegant frontends, robust microservices, and intelligent generative AI solutions
                         </p>
                         
                         <div className="pt-4 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
