@@ -59,7 +59,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-sky-100 mb-4 uppercase text-sm tracking-widest">Featured</h3>
             <p className="text-sm text-whiteitalic">
-              Check out "AutoHive" — my latest vehicle parts marketplace.
+              Check out "HealthSync" — my latest Hospital Appointment System.
             </p>
           </div>
         </div>
