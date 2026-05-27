@@ -9,7 +9,6 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@next/swc-win32-x64-msvc": "^16.2.6",
     "framer-motion": "^12.38.0",
     "item": "^3.0.0",
     "next": "16.2.2",
@@ -22,5 +21,9 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.2",
     "tailwindcss": "^4"
+  },
+  "optionalDependencies": {
+    "@next/swc-linux-x64-gnu": "^16.2.6",
+    "@next/swc-win32-x64-msvc": "^16.2.6"
   }
 }
