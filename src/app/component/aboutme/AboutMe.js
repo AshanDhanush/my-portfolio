@@ -1,50 +1,67 @@
 "use client"
 
 import { motion } from "framer-motion";
-import Image from "next/image";
-import portrait from '../../../assets/Young software engineer at work.png';
 
 export default function AboutMe() {
+    const skills = ["Java (Spring Boot)", "Python (FastAPI)", "Next.js / React", "Computer Vision", "MongoDB", "RAG Systems"];
+
     return (
-        <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0.8 }}
-        >
-            <section id="about" className="min-h-screen w-full flex items-center bg-sky-50 pt-20 px-8">
-                <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-10 max-w-6xl">
+        <section id="about" className="w-full py-24 px-6 relative">
+            <div className="container mx-auto max-w-5xl relative z-10">
+                
+                <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+                    
+                    {/* Floating Profile Bio Block */}
+                    <motion.div 
+                        initial={{ opacity: 0, x: -30 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true, margin: "-100px" }}
+                        transition={{ duration: 0.8 }}
+                        className="md:col-span-7 space-y-6"
+                    >
+                        <h2 className="text-3xl md:text-5xl font-sans tracking-tight text-slate-100 font-bold">
+                            Architecting <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">Scalable Intelligence</span>
+                        </h2>
+                        <p className="text-slate-400 leading-relaxed text-base font-sans">
+                            As an Electronic and Computer Science researcher and full-stack engineer, I specialized in distilling complex computer vision models and building high-throughput architectural ecosystems. 
+                        </p>
+                        <p className="text-slate-400 leading-relaxed text-base font-sans">
+                            My focus centers around bridging algorithmic deep learning (Metric Depth Estimation, Knowledge Distillation) with production-ready cloud environments.
+                        </p>
+                    </motion.div>
 
-                    {/* Text Content */}
-                    <div className="flex-1 flex flex-col gap-6  ">
-                        <h1 className="text-5xl md:text-7xl text-sky-600 font-sans whitespace-nowrap underline decoration-sky-500 decoration-4 mb-4">
-                            So, Who Am I?
-                        </h1>
-
-                        <span className="text-sky-500 text-lg md:text-xl font-sans italic ">
-                           Passionate Full-Stack Developer and AI Architect with a deep interest in distributed systems and deep learning. I have a proven track record of developing end-to-end applications like AutoHive, where I integrate Next.js frontends with robust Java/Spring Boot backends and NoSQL (MongoDB) databases.
-
-                             Beyond development, I am exploring the frontiers of AI, currently researching lightweight depth estimation models using the Hypersim and HeadsUp datasets. I thrive at the intersection of clean code, microservices orchestration, and efficient neural network design
-                        </span>
-
-                        <div className="mt-8 relative z-50">
-                            <button type="button" className="inline-block  shadow-indigo-500 bg-sky-500 text-white px-6 py-3 rounded-md hover:bg-sky-600 transition-shadow shadow-lg cursor-pointer" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>
-                                Contact Me
-                            </button>
+                    {/* Floating Core Tech Matrix */}
+                    <motion.div 
+                        initial={{ opacity: 0, x: 30 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true, margin: "-100px" }}
+                        transition={{ duration: 0.8 }}
+                        className="md:col-span-5 bg-slate-900/40 border border-white/5 backdrop-blur-xl rounded-2xl p-6 relative"
+                    >
+                        {/* Internal ambient vector lines */}
+                        <div className="absolute top-0 left-10 w-px h-full bg-gradient-to-b from-purple-500/20 via-transparent to-transparent pointer-events-none" />
+                        
+                        <h3 className="text-slate-200 font-mono text-sm tracking-wider uppercase mb-6 text-purple-400">
+                            // Tech Stack Matrix
+                        </h3>
+                        
+                        <div className="grid grid-cols-2 gap-3 relative z-10">
+                            {skills.map((skill, index) => (
+                                <motion.div
+                                    key={index}
+                                    whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.03)" }}
+                                    className="p-3 rounded-xl border border-white/5 bg-slate-950/40 text-xs font-mono text-slate-300 flex items-center gap-2"
+                                >
+                                    <span className="h-1.5 w-1.5 rounded-full bg-cyan-400/70" />
+                                    {skill}
+                                </motion.div>
+                            ))}
                         </div>
-                    </div>
+                    </motion.div>
 
-                    {/* Image Content */}
-                    <div className="flex-1 flex justify-center md:justify-end">
-                        <Image
-                            src={portrait}
-                            alt="Ashan Dhanushka"
-                            className="w-100 h-100 md:w-[450px] md:h-[450px] rounded-2xl shadow-xl border border-sky-100 object-cover"
-                        />
-                    </div>
                 </div>
-            </section>
-        </motion.div>
-    );
 
+            </div>
+        </section>
+    );
 }
