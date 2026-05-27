@@ -108,7 +108,7 @@ export default function Projects() {
                         {/* Integrated Custom Vector Asset Showcase */}
                         <div className="relative w-full h-48 mb-5 overflow-hidden rounded-xl border border-white/10 bg-slate-950">
                             <Image
-                                src={require('../../../assets/salon-showcase.svg')}
+                                src={salonImg}
                                 alt="Elite Salon Intelligent Reservation System"
                                 fill
                                 className="object-cover transition-transform duration-500 group-hover:scale-105 opacity-90 group-hover:opacity-100"
@@ -145,7 +145,7 @@ export default function Projects() {
                         {/* Realized Project Vector Showcase Image Container */}
                         <div className="relative w-full h-48 mb-5 overflow-hidden rounded-xl border border-white/10 bg-slate-950">
                             <Image
-                                src={require('../../../assets/healthsync-showcase.svg')}
+                                src={healthSyncImg}
                                 alt="HealthSync Smart Healthcare Platform"
                                 fill
                                 className="object-cover transition-transform duration-500 group-hover:scale-105 opacity-90 group-hover:opacity-100"
