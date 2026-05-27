@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 export default function AboutMe() {
-    const skills = ["Java (Spring Boot)", "Python (FastAPI)", "Next.js / React", "Computer Vision", "MongoDB", "RAG Systems"];
+    const skills = ["Java (Spring Boot)", "Python (FastAPI)", "Next.js / React", "Computer Vision", "MongoDB", "MySQL", "RAG Systems", "Docker"];
 
     return (
         <section id="about" className="w-full py-24 px-6 relative">
