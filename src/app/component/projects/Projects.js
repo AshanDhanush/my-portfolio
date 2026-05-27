@@ -122,7 +122,7 @@ export default function Projects() {
                         <div className="flex items-center justify-between pt-4 border-t border-white/5">
                             <span className="text-xs text-slate-500 font-mono">Commercial App</span>
                             <a href="https://github.com/AshanDhanush/salon-management-system.git" className="text-slate-400 hover:text-pink-400 transition-all transform hover:scale-110">
-                                <GitHubIcon />[cite: 1]
+                                <GitHubIcon />
                             </a>
                         </div>
                     </motion.div>
