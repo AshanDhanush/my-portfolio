@@ -103,7 +103,7 @@ export default function Projects() {
                         <div className="flex items-center justify-between mb-3">
                             <span className="text-xs font-mono text-pink-400 bg-pink-500/10 px-2.5 py-0.5 rounded-full border border-pink-500/20">Full-Stack SaaS // GenAI</span>
                         </div>
-                        <h2 className="text-slate-100 font-sans text-2xl font-bold mb-4 group-hover:text-pink-400 transition-colors duration-300">Elite Salon</h2>[cite: 1]
+                        <h2 className="text-slate-100 font-sans text-2xl font-bold mb-4 group-hover:text-pink-400 transition-colors duration-300">Elite Salon</h2>
 
                         {/* Integrated Custom Vector Asset Showcase */}
                         <div className="relative w-full h-48 mb-5 overflow-hidden rounded-xl border border-white/10 bg-slate-950">
@@ -117,11 +117,11 @@ export default function Projects() {
                         </div>
 
                         <p className="text-slate-400 text-sm leading-relaxed font-sans mb-6 flex-grow">
-                            A full-stack salon management and salon reservation ecosystem. Features a custom integrated RAG-enabled chatbot designed to handle seamless real-time client consultations.[cite: 1]
+                            A full-stack salon management and salon reservation ecosystem. Features a custom integrated RAG-enabled chatbot designed to handle seamless real-time client consultations.
                         </p>
-                        <div className="flex items-center justify-between pt-4 border-t border-white/5">[cite: 1]
-                            <span className="text-xs text-slate-500 font-mono">Commercial App</span>[cite: 1]
-                            <a href="https://github.com/AshanDhanush/salon-management-system.git" className="text-slate-400 hover:text-pink-400 transition-all transform hover:scale-110">[cite: 1]
+                        <div className="flex items-center justify-between pt-4 border-t border-white/5">
+                            <span className="text-xs text-slate-500 font-mono">Commercial App</span>
+                            <a href="https://github.com/AshanDhanush/salon-management-system.git" className="text-slate-400 hover:text-pink-400 transition-all transform hover:scale-110">
                                 <GitHubIcon />[cite: 1]
                             </a>
                         </div>
